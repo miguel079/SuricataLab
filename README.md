@@ -18,7 +18,7 @@ In this lab we're going to walk through how to examine a rule and practice using
 
 <p align="center">
   
-<h2>First We Examine a Custom Rule in Suricata:</h2>
+<h2>Examining a Custom Rule in Suricata:</h2>
 <p align="center">
   
 Using the cat command to display the rule in the custom.rules file in the home directory:  <br/>
@@ -33,7 +33,7 @@ packet from the home network going to the external network.
 
 <p align="center">
   
-<h2>Next, We Trigger a custom rule in Suricata:</h2>
+<h2>Triggering a Custom Rule in Suricata:</h2>
 <p align="center">
 
 Running suricata using the custom.rules and sample.pcap files in /var/log/suricata: <br/>
@@ -56,7 +56,7 @@ Each alert line includes the message that identifies the rule that triggered the
 
 <p align="center">
   
-<h2>Finally, We Examine eve.json Output:</h2>
+<h2>Examining eve.json Output:</h2>
 <p align="center">
 
 Using the cat command to display the entries in the eve.json file then use the jq command to display the entries in a better format: <br/>
